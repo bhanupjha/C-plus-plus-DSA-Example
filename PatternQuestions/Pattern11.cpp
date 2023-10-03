@@ -3,14 +3,15 @@ using namespace std;
 
 int main(){
     int n;
-    cout<<"Enter the value of n: "<<endl;
+    cout<<"Enter the number: "<<endl;
     cin>>n;
 
     int i = 1;
-    while(i <= n){
+    while(i<=n){
         int j = 1;
-        while(j <= n){
-            cout<<(n - j + 1);   // Print the value of (n - j + 1)
+        while(j<=n){
+            char ch = 'A' + i - 1;
+            cout<<ch<<" ";
             j = j + 1;
         }
         cout<<endl;

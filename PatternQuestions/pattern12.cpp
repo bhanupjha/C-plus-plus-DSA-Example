@@ -6,14 +6,15 @@ int main(){
     cout<<"Enter the value of n: "<<endl;
     cin>>n;
 
-    int i = 1;
-    while(i <= n){
+    int  i = 1;
+    while(i<=n){
         int j = 1;
-        while(j <= n){
-            cout<<j;       //Print the value of 'j'
+        while(j<=n){
+            char ch = 'A' + j - 1;
+            cout<<ch<<" ";
             j = j + 1;
         }
-        cout<<endl;      //Move to the next line after printing the row
+        cout<<endl;
         i = i + 1;
     }
     return 0;

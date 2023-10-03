@@ -10,10 +10,10 @@ int main(){
     while(i <= n){
         int j = 1;
         while(j <= n){
-            cout<<"*";
+            cout<<"*";   // Print an asterisk for each column in the row.
              j = j + 1;
         }
-        cout<<endl;
+        cout<<endl;      // Move to the next line after printing all the columns.
          i = i + 1;
     }
     return 0;
