@@ -3,15 +3,17 @@ using namespace std;
 
 int main(){
     int n;
-    cout<<"Enter the value of number: "<<endl;
+    cout<<"Enter the value of n: "<<endl;
     cin>>n;
 
-    char i = 1;
+    int i = 1;
+    int count = 'A';
     while(i<=n){
         int j = 1;
-        while(j<=n){
-            char ch = 'A' + i + j - 2;
+        while(j<=i){
+            char ch  = count;
             cout<<ch<<" ";
+            count = count + 1;
             j = j + 1;
         }
         cout<<endl;
