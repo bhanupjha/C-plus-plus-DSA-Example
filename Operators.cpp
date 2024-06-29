@@ -41,6 +41,7 @@ int main(){
     int j = 7,  k = 3, l = 15;
     cout<<((j>0)&&(k!=0)&&(l>=15))<<endl;     //logical AND
     cout<<((j>7)||(k==3)||(l<15))<<endl;     //logical OR
+    //if j = true i.e 7 then !j = false i.e 0
     cout<<(!j)<<endl;                       //logical NOT
 
     int M = 0;
