@@ -9,13 +9,11 @@ int main(){
     int div = 2;
     while(div < n){
         if(n % div == 0){
-            cout<<"Number is not prime for "<<div<<endl;
-        }
-        else{
-             cout<<"Number is prime for "<<div<<endl;
-
+            cout<<"Number is not prime "<<endl;
+            return 0;
         }
         div = div + 1;
     }
+    cout<<"Number is prime";
     return 0;
 }

@@ -86,34 +86,34 @@ int main(){
     // }
 
 //Example 3:
-        // int a = 24;
-        // if(a > 20){
-        //     cout<<"LOVE";
-        // }
-        // else if(a == 24){
-        //     cout<<"LOVELY";
-        // }
-        // else{
-        //     cout<<"hello";
-        // }
-        // cout<<a;
+    // int a = 24;
+    // if(a > 20){
+    //     cout<<"LOVE";
+    // }
+    // else if(a == 24){
+    //     cout<<"LOVELY";
+    // }
+    // else{
+    //     cout<<"hello";
+    // }
+    // cout<<a;
 
 //Example 4:
-        //  char ch;
-        //  cin>>ch;
-        //  // 'A' is 65
-        //  // 'a' is 97
-        //  // '0' is 48
-        //  //  we can also use ASCII value
-        //  if(ch >= 'A' && ch <= 'Z'){
-        //     cout<<"This is upper case"<<endl;
-        //  }
-        //  else if(ch >= 'a' && ch <= 'z'){
-        //     cout<<"This is in lower case"<<endl;
-        //  }
-        //  else if(ch >= '0' && ch <= '9'){
-        //     cout<<"This is in Numeric form"<<endl; 
-        //  }
+    //  char ch;
+    //  cin>>ch;
+    //  // 'A' is 65
+    //  // 'a' is 97
+    //  // '0' is 48
+    //  //  we can also use ASCII value
+    //  if(ch >= 'A' && ch <= 'Z'){
+    //     cout<<"This is upper case"<<endl;
+    //  }
+    //  else if(ch >= 'a' && ch <= 'z'){
+    //     cout<<"This is in lower case"<<endl;
+    //  }
+    //  else if(ch >= '0' && ch <= '9'){
+    //     cout<<"This is in Numeric form"<<endl; 
+    //  }
 
 //Example 5:
     // int age;
